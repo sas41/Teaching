@@ -19,6 +19,7 @@ namespace ArraysAndLists
     class LinkedList<T>
     {
         Node<T> start;
+        Node<T> end;
         public int Count { get; private set; }
 
         public LinkedList()
@@ -67,17 +68,13 @@ namespace ArraysAndLists
             if (start == null)
             {
                 start = new Node<T>(item);
+                end = start;
                 Count = 1;
             }
             else
             {
-                Node<T> current = start;
-                while (current.next != null)
-                {
-                    current = current.next;
-                }
-                current.next = new Node<T>(item);
-
+                end.next = new Node<T>(item);
+                end = end.next;
                 Count++;
             }
         }
