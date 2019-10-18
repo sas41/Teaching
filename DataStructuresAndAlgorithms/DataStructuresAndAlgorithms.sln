@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "ArraysAndLists\ArraysAndLists.csproj", "{FCF670B5-616D-4119-AD21-49CA1C2746E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{93C24D1D-B4DE-442A-8059-AF43078A1360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FCF670B5-616D-4119-AD21-49CA1C2746E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF670B5-616D-4119-AD21-49CA1C2746E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF670B5-616D-4119-AD21-49CA1C2746E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C24D1D-B4DE-442A-8059-AF43078A1360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C24D1D-B4DE-442A-8059-AF43078A1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C24D1D-B4DE-442A-8059-AF43078A1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C24D1D-B4DE-442A-8059-AF43078A1360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
