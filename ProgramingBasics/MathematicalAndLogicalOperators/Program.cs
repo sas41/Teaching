@@ -107,7 +107,7 @@ namespace MathematicalAndLogicalOperators
                 Console.WriteLine("Is A smaller than B, AND is A equal to D");
             }
 
-            if ((c > b) || (d == b))
+            if ( (c > b) || (d == b) )
             {
                 Console.WriteLine("Is C larger than B, OR is d equal to B");
             }
