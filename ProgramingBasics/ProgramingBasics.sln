@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicalAndLogicalOperators", "MathematicalAndLogicalOperators\MathematicalAndLogicalOperators.csproj", "{3FFD4B62-7A78-43FC-B6D8-09BF6E5B2CF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{F3165CC6-43AC-4BBA-BA3B-262478808F39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3FFD4B62-7A78-43FC-B6D8-09BF6E5B2CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FFD4B62-7A78-43FC-B6D8-09BF6E5B2CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FFD4B62-7A78-43FC-B6D8-09BF6E5B2CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3165CC6-43AC-4BBA-BA3B-262478808F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3165CC6-43AC-4BBA-BA3B-262478808F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3165CC6-43AC-4BBA-BA3B-262478808F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3165CC6-43AC-4BBA-BA3B-262478808F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
