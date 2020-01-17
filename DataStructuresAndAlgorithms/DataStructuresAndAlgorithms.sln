@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionsAndIntersections", "UnionsAndIntersections\UnionsAndIntersections.csproj", "{65244084-4282-4254-B0C1-E18DE03A82FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{CD4A561E-CAD1-4BD5-A723-110DB0C592F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{65244084-4282-4254-B0C1-E18DE03A82FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65244084-4282-4254-B0C1-E18DE03A82FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65244084-4282-4254-B0C1-E18DE03A82FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4A561E-CAD1-4BD5-A723-110DB0C592F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4A561E-CAD1-4BD5-A723-110DB0C592F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4A561E-CAD1-4BD5-A723-110DB0C592F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4A561E-CAD1-4BD5-A723-110DB0C592F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

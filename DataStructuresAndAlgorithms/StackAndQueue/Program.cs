@@ -17,6 +17,7 @@ namespace StackAndQueue
         static void StackTest()
         {
             ArrayStack<int> myQueue = new ArrayStack<int>();
+            ArrayStack<StringBuilder> myQueue2 = new ArrayStack<StringBuilder>();
             int total = 0;
 
             for (int i = 0; i < 5; i++)
