@@ -53,5 +53,22 @@ namespace SortingAlgorithms
 
             return sorted;
         }
+
+        public static List<int> BubbleSort(List<int> list)
+        {
+            List<int> sorted = Copy(list);
+            for (int i = sorted.Count - 1; i >= 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if (sorted[j] > sorted[j+1])
+                    {
+                        Swap(sorted, j, j + 1);
+                    }
+                }
+            }
+
+            return sorted;
+        }
     }
 }

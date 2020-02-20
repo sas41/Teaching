@@ -10,11 +10,23 @@ namespace SortingAlgorithms
     {
         static void Main(string[] args)
         {
-            List<int> unsorted = new List<int> {4, 7, 9, 1, 6, 0, 8, 2, 3, 5 };
+            List<int> unsorted = new List<int>();
 
-            List<int> sorted = Sorting.SelectionSort(unsorted);
+            Random rng = new Random();
+            for (int i = 0; i < 10; i++)
+            {
+                unsorted.Add(rng.Next(1, 50));
+            }
+            Console.WriteLine("Original List:  " + string.Join(", ", unsorted));
 
-            Console.WriteLine(string.Join(", ", sorted));
+            List<int> selectionSort = Sorting.SelectionSort(unsorted);
+            Console.WriteLine("Selection Sort: "+string.Join(", ", selectionSort));
+
+
+            List<int> bubbleSort = Sorting.BubbleSort(unsorted);
+            Console.WriteLine("Bubble Sort:    " + string.Join(", ", bubbleSort));
+
+            Console.ReadLine();
         }
     }
 }
