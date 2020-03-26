@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{AF395743-8398-4377-82DB-F985C917C22F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "SearchingAlgorithms\SearchingAlgorithms.csproj", "{F034A02F-82D4-4BD4-B0F9-97B9F8302B64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AF395743-8398-4377-82DB-F985C917C22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF395743-8398-4377-82DB-F985C917C22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF395743-8398-4377-82DB-F985C917C22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F034A02F-82D4-4BD4-B0F9-97B9F8302B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F034A02F-82D4-4BD4-B0F9-97B9F8302B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F034A02F-82D4-4BD4-B0F9-97B9F8302B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F034A02F-82D4-4BD4-B0F9-97B9F8302B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
