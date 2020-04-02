@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExercises", "ArrayExer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{80049A06-43F8-43DD-8EDB-3DA8CDC944B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{9523C484-D495-4F02-9221-1B6166628770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{80049A06-43F8-43DD-8EDB-3DA8CDC944B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80049A06-43F8-43DD-8EDB-3DA8CDC944B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80049A06-43F8-43DD-8EDB-3DA8CDC944B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9523C484-D495-4F02-9221-1B6166628770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9523C484-D495-4F02-9221-1B6166628770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9523C484-D495-4F02-9221-1B6166628770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9523C484-D495-4F02-9221-1B6166628770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
