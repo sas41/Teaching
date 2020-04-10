@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{9523C484-D495-4F02-9221-1B6166628770}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLambda", "LinqAndLambda\LinqAndLambda.csproj", "{F898B2FB-B275-4FAC-A498-EBD0AEDB2C85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9523C484-D495-4F02-9221-1B6166628770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9523C484-D495-4F02-9221-1B6166628770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9523C484-D495-4F02-9221-1B6166628770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F898B2FB-B275-4FAC-A498-EBD0AEDB2C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F898B2FB-B275-4FAC-A498-EBD0AEDB2C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F898B2FB-B275-4FAC-A498-EBD0AEDB2C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F898B2FB-B275-4FAC-A498-EBD0AEDB2C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
