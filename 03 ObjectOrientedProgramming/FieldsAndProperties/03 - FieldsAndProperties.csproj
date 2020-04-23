@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7DEA09A-B5A3-426D-AD42-A8851D2A8F41}</ProjectGuid>
+    <ProjectGuid>{28762A0B-0CDC-4026-A822-27B70CBD3B69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassExamples</RootNamespace>
-    <AssemblyName>ClassExamples</AssemblyName>
+    <RootNamespace>FieldsAndProperties</RootNamespace>
+    <AssemblyName>FieldsAndProperties</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
+    <Compile Include="PersonV3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
